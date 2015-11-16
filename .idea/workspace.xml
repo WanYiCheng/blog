@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="17f4cf86-cabf-4cb3-810f-2cd16c533256" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stylesheets/clock.css" afterPath="$PROJECT_DIR$/stylesheets/clock.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="blog.iws" />
@@ -43,11 +44,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="33.28125">
-              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.5244361">
+              <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -75,11 +76,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="clock.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="clock.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/stylesheets/clock.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.0195036">
-              <caret line="25" column="17" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="12" column="39" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -271,7 +272,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="182" y="27" width="1007" height="701" extended-state="1" />
+    <frame x="182" y="27" width="1007" height="701" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17860746" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -440,6 +441,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/stylesheets/clock.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="39" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/stylesheets/stylesheet.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -450,16 +459,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="33.28125">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stylesheets/clock.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.0195036">
-          <caret line="25" column="17" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
+        <state vertical-scroll-proportion="0.5244361">
+          <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
           <folding />
         </state>
       </provider>

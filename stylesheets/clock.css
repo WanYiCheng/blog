@@ -13,22 +13,18 @@ ol,ul {
     /*font-family: 'Microsoft Yahei';*/
 /*}*/
 .box_clock {
-     position:relative;
-     height:200px;
-    width:100%;
-
-
-
+     height:300px;
+     width:100%;
 }
 /*±Ì≈Ã*/
 .clock {
-    position:absolute;
+    position:relative;
     width: 200px;
     height: 200px;
     border-radius: 100%;
     background-color: #292a38;
     /*margin: 50px auto;*/
-    right:0;
+    margin-left:400px;
 
 
 }
