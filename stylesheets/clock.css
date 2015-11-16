@@ -12,10 +12,8 @@ ol,ul {
     /*margin-top: 40px;*/
     /*font-family: 'Microsoft Yahei';*/
 /*}*/
-.box_clock {
-     height:300px;
-     width:100%;
-}
+
+
 /*±Ì≈Ã*/
 .clock {
     position:relative;
@@ -24,7 +22,7 @@ ol,ul {
     border-radius: 100%;
     background-color: #292a38;
     /*margin: 50px auto;*/
-    margin-left:400px;
+
 
 
 }
