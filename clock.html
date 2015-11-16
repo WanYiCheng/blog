@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style type="text/css">
+       ol, ul {
+           margin:0;
+           padding:0;
+           list-style:none;
+       }
+        h1{
+            text-align:center;
+            color:#333;
+            margin-top:40px;
+            font-family: "Microsoft YaHei";
+        }
+        .clock{
+            position:relative;
+            width:200px;
+            height:200px;
+            border-radius:100%;
+            background:#292a38;
+            margin:50px auto;
+        }
+        .pointer li.circle{
+            position:absolute;
+            top:50%;
+            left:50%;
+            background:#fff;
+            border-radius: 100%;
+            width:10px;
+            height:10px;
+            margin-top:-5px;
+            margin-left:-5px;
+            transform-origin: left center;
+        }
+       .line-hour li,
+       .line-min li {
+           position: absolute;
+           left: 50%;
+           top: 50%;
+           transform-origin: left center;
+           background-color: #fff;
+       }
+       .line-hour li {
+           width: 10px;
+           height: 2px;
+       }
+       .line-min li {
+           width: 5px;
+           height: 2px;
+       }
+
+       .number {
+           position: absolute;
+           height: 150px;
+           width: 150px;
+           left: 50%;
+           top: 50%;
+           transform: translate(-50%, -50%);
+           font-family: 'Microsoft Yahei';
+           font-size: 15px;
+           color: #fff;
+       }
+       .number li {
+           position: absolute;
+           transform: translate(-50%, -50%);
+       }
+       .pointer li {
+           position: absolute;
+           top: 50%;
+           left: 50%;
+           transform-origin: left center;
+           background: #fff;
+       }
+       .pointer li.hour {
+           width: 45px;
+           height: 3px;
+           margin-top: -1px;
+       }
+       .pointer li.min {
+           width: 60px;
+           height: 2px;
+           margin-top: -1px;
+       }
+       .pointer li.sec {
+           width: 80px;
+           height: 1px;
+           margin-top: -1px;
+       }
+
+    </style>
+</head>
+<body>
+    <h1>CSS3 时钟效果实现</h1>
+    <div class="clock">
+       <ul class="line-min"></ul>
+       <ul class="line-hour"></ul>
+       <ol class="number"></ol>
+       <ul class="pointer">
+           <li class="hour"></li>
+           <li class="min"></li>
+           <li class="sec"></li>
+           <li class="circle"></li>
+       </ul>
+    </div>
+    <script type="text/javascript" src="javascripts/jquery-1.11.2.min.js"></script>
+
+    <script type="text/javascript">
+        $(function(){
+            function init(){
+              drawLines($('.line-min'),60,85);
+              drawLines($('.line-hour'),12,80);
+              drawNumbers($('.number'));
+              move();
+            }
+            init();
+
+
+
+            function drawLines(wrap, total, translateX){
+                var gap = 360/total;
+                var strHtml = '';
+                for(var i=0; i<total; i++){
+                    strHtml += '<li style="transform:rotate('+ (i*gap) + 'deg) translate(' + translateX + 'px,-50%)"></li>';
+                }
+                wrap.html(strHtml);
+            }
+
+            function drawNumbers(wrap){
+                var radius = wrap.width() / 2;
+
+                var strHtml = '';
+                for(var i=1; i<=12; i++){
+                    var myAngle = (i-3)/6 * Math.PI;
+
+                    var myX = radius + radius*Math.cos(myAngle), // x=r+rcos(θ)
+                            myY = radius + radius*Math.sin(myAngle); // y=r+rsin(θ)
+
+                    strHtml += '<li style="left:' + myX + 'px; top:'+ myY +'px">' + i + '</li>';
+                }
+                wrap.html(strHtml);
+            }
+
+            function move(){
+                var domHour = $(".hour"),
+                        domMin = $(".min"),
+                        domSec = $(".sec");
+
+                setInterval(function(){
+                    var now = new Date(),
+                            hour = now.getHours(),
+                            min = now.getMinutes(),
+                            sec = now.getSeconds();
+
+                    var secAngle = sec*6 - 90,  // s*6-90
+                            minAngle = min*6 + sec*0.1 - 90,  // m*6+s*0.1-90
+                            hourAngle = hour*30 + min*0.5 - 90;  // h*30+m*0.5 - 90
+
+                    domSec.css('transform', 'rotate(' + secAngle + 'deg)');
+                    domMin.css('transform', 'rotate(' + minAngle + 'deg)');
+                    domHour.css('transform', 'rotate(' + hourAngle + 'deg)');
+
+                    document.title = hour + ':' + min + ':' + sec;
+                },1000);
+            }
+        })
+    </script>
+</body>
+</html>
