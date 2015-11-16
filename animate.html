@@ -6,8 +6,24 @@
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <meta name="description" content="Blog : My Blog">
     <title>Blog</title>
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
     <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/animate.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+    <link href="javascripts/mf-pattern/mF_51xflash.css" type="text/css" /><!--引入风格css文件-->
+    <script type="text/javascript" src="javascripts/myfocus-2.0.1.min.js"></script><!--引入myFocus库-->
+    <script type="text/javascript" src="javascripts/mf-pattern/mF_51xflash.js"></script><!--引入风格js文件-->
+
+
+    <script type="text/javascript">
+        myFocus.set({
+            id:'boxID',//焦点图盒子ID
+//            pattern:'mF_fancy',//风格应用的名称
+//            time:3,//切换时间间隔(秒)
+//            trigger:'click',//触发切换模式:'click'(点击)/'mouseover'(悬停)
+            width:400,//设置图片区域宽度(像素)
+            height:300//设置图片区域高度(像素)
+//        txtHeight:'default'//文字层高度设置(像素),'default'为默认高度，0为隐藏
+        });
+    </script>
 
 </head>
 
@@ -42,6 +58,25 @@
             </div>
             <div class="border"></div>
         </a>
+        <h3>② 嫦娥奔月</h3>
+        <div class="change_box">
+            <a href="http://image.haosou.com/i?q=%E5%AB%A6%E5%A8%A5png&src=tab_www" class="change " target="_blank">
+                <img src="http://p4.qhimg.com/t0160e6a92121691e22.png" alt=""  />
+            </a>
+        </div>
+        <h3>③ 动漫焦点图</h3>
+        <div id="boxID"><!--焦点图盒子-->
+            <div class="loading"><img src="images/loading.jpg" alt="请稍候..." /></div><!--载入画面(可删除)-->
+            <div class="pic"><!--内容列表(li数目可随意增减)-->
+                <ul>
+                    <li><a href="#"><img src="images/01.jpg" thumb="" alt="萌妹纸1" text="详细描述1" /></a></li>
+                    <li><a href="#"><img src="images/02.jpg" thumb="" alt="萌妹纸2" text="详细描述2" /></a></li>
+                    <li><a href="#"><img src="images/03.jpg" thumb="" alt="萌妹纸3" text="详细描述3" /></a></li>
+                    <li><a href="#"><img src="images/04.jpg" thumb="" alt="萌妹纸4" text="详细描述4" /></a></li>
+                    <!--<li><a href="#"><img src="images/5.jpg" thumb="" alt="标题5" text="详细描述5" /></a></li>-->
+                </ul>
+            </div>
+        </div>
 
     </section>
 </div>
