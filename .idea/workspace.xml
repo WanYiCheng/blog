@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="17f4cf86-cabf-4cb3-810f-2cd16c533256" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myBlog/css/main.css" afterPath="$PROJECT_DIR$/myBlog/css/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myBlog/index.html" afterPath="$PROJECT_DIR$/myBlog/index.html" />
     </list>
     <ignored path="blog.iws" />
@@ -25,21 +23,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/myBlog/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.875">
-              <caret line="303" column="33" selection-start-line="303" selection-start-column="33" selection-end-line="303" selection-end-column="33" />
+            <state vertical-scroll-proportion="0.508547">
+              <caret line="197" column="40" selection-start-line="197" selection-start-column="40" selection-end-line="197" selection-end-column="40" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/myBlog/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.1663113">
-              <caret line="605" column="0" selection-start-line="605" selection-start-column="0" selection-end-line="605" selection-end-column="0" />
+            <state vertical-scroll-proportion="-3.15625">
+              <caret line="606" column="9" selection-start-line="606" selection-start-column="9" selection-end-line="606" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -90,8 +88,8 @@
         <option value="E:/HTML学习笔记/DOM书本标准代码/chapter12/domsters/scripts/global.js" />
         <option value="$PROJECT_DIR$/scripts/global.js" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/myBlog/index.html" />
         <option value="$PROJECT_DIR$/myBlog/css/main.css" />
+        <option value="$PROJECT_DIR$/myBlog/index.html" />
       </list>
     </option>
   </component>
@@ -101,8 +99,8 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="13" />
-    <option name="y" value="16" />
+    <option name="x" value="35" />
+    <option name="y" value="38" />
     <option name="width" value="1370" />
     <option name="height" value="662" />
   </component>
@@ -275,7 +273,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="13" y="16" width="1370" height="662" extended-state="1" />
+    <frame x="35" y="38" width="1370" height="662" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15315315" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -621,18 +619,18 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myBlog/index.html">
+    <entry file="file://$PROJECT_DIR$/myBlog/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.875">
-          <caret line="303" column="33" selection-start-line="303" selection-start-column="33" selection-end-line="303" selection-end-column="33" />
+        <state vertical-scroll-proportion="-3.15625">
+          <caret line="606" column="9" selection-start-line="606" selection-start-column="9" selection-end-line="606" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myBlog/css/main.css">
+    <entry file="file://$PROJECT_DIR$/myBlog/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1663113">
-          <caret line="605" column="0" selection-start-line="605" selection-start-column="0" selection-end-line="605" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.508547">
+          <caret line="197" column="40" selection-start-line="197" selection-start-column="40" selection-end-line="197" selection-end-column="40" />
           <folding />
         </state>
       </provider>
