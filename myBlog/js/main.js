@@ -404,8 +404,10 @@ var balls = [];
 const colors =["#33B5E5","#0099CC","#AA66CC","#9933CC","#99CC00","#669900","#FFBB33","#FF8800","#FF4444","#CC0000"];
 
 function timeClock(){
-    WINDOW_WIDTH = 600;
-    WINDOW_HEIGHT = 400;
+    WINDOW_HEIGHT = document.getElementById("canvas-img").clientHeight;
+    WINDOW_WIDTH = document.getElementById("canvas-img").clientWidth;
+    //WINDOW_WIDTH = 600;
+    //WINDOW_HEIGHT = 400;
     MARGIN_LEFT = Math.round(WINDOW_WIDTH/10);
     RADIUS = Math.round(WINDOW_WIDTH*4/5/108)-1;
     MARGIN_TOP = Math.round(WINDOW_HEIGHT/3);
