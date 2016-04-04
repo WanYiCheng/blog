@@ -1,60 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="17f4cf86-cabf-4cb3-810f-2cd16c533256" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/about.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/animate.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/clock.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/contact.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/home-index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/home-switchPage.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/04.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/example.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/example2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/loading.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images1/background.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images1/basshead.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images1/bassist.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images1/drummer.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images1/frame.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images1/guitarist.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images1/lineup.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images1/loading.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images1/logo.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images1/navbar.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images1/photos/bassist.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images1/photos/concert.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images1/photos/crowd.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images1/photos/guitarist.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images1/photos/thumbnail_bassist.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images1/photos/thumbnail_concert.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images1/photos/thumbnail_crowd.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images1/photos/thumbnail_guitarist.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images1/placeholder.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images1/portrait.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images1/slideshow.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/live.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/photos.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/ajax.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/global.2.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/global.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/modernizr-1.6.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/show.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/styles/basic.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/styles/color.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/styles/layout.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/styles/typography.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/submit.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/template.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="17f4cf86-cabf-4cb3-810f-2cd16c533256" name="Default" comment="" />
     <ignored path="blog.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -149,8 +96,8 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="241" />
-    <option name="y" value="49" />
+    <option name="x" value="15" />
+    <option name="y" value="63" />
     <option name="width" value="1370" />
     <option name="height" value="662" />
   </component>
@@ -304,8 +251,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="241" y="49" width="1370" height="662" extended-state="1" />
-    <editor active="true" />
+    <frame x="15" y="63" width="1370" height="662" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16666667" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
