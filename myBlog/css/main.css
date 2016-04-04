@@ -428,9 +428,14 @@ footer ul li a{
 /*回到顶部CSS布局*/
 .toolbar{
     position:fixed;
-    bottom:5px;
+    bottom:-213px;
     right:5px;
+    transition:2s;
 
+}
+.toolbar:hover{
+    bottom:3px;
+    transition:2s;
 }
 .toolbar-item{
     position: relative;
@@ -597,4 +602,16 @@ footer ul li a{
     z-index:2;
     cursor: pointer;
     background: url("../img/close.png") no-repeat center center;
+}
+
+/*音频CSS*/
+#audio-section{
+    position: fixed;
+    left:-200px;
+    bottom:5px;
+    transition:1s;
+}
+#audio-section:hover{
+    left:5px;
+    transition:1s;
 }
