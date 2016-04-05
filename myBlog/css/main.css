@@ -617,3 +617,30 @@ footer ul li a{
     left:5px;
     transition:1s;
 }
+
+/*canvas小游戏*/
+
+#all_bg{
+      width:1000px;
+      height:600px;
+      margin:0 auto;
+  }
+#allcanvas{
+    position:relative;
+    width:1000px;
+    height:600px;;
+    margin:0 auto;
+}
+#canvas1{
+    position:absolute;
+    bottom:0;
+    left:0;
+    z-index:1;
+}
+#canvas2{
+    position:absolute;
+    bottom:0;
+    left:0;
+    z-index:0;
+
+}
