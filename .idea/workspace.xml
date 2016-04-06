@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="17f4cf86-cabf-4cb3-810f-2cd16c533256" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myBlog/img/background-music.mp3" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myBlog/css/main.css" afterPath="$PROJECT_DIR$/myBlog/css/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myBlog/index.html" afterPath="$PROJECT_DIR$/myBlog/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myBlog/js/main.js" afterPath="$PROJECT_DIR$/myBlog/js/main.js" />
     </list>
     <ignored path="blog.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,8 +27,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/myBlog/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.41025642">
-              <caret line="240" column="90" selection-start-line="240" selection-start-column="90" selection-end-line="240" selection-end-column="90" />
+            <state vertical-scroll-proportion="0.21367522">
+              <caret line="290" column="18" selection-start-line="290" selection-start-column="18" selection-end-line="290" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -116,7 +113,7 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-65" />
+    <option name="x" value="-7" />
     <option name="y" value="34" />
     <option name="width" value="1370" />
     <option name="height" value="662" />
@@ -308,7 +305,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-65" y="34" width="1370" height="662" extended-state="1" />
+    <frame x="-7" y="34" width="1370" height="662" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15315315" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -716,8 +713,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/myBlog/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.41025642">
-          <caret line="240" column="90" selection-start-line="240" selection-start-column="90" selection-end-line="240" selection-end-column="90" />
+        <state vertical-scroll-proportion="0.21367522">
+          <caret line="290" column="18" selection-start-line="290" selection-start-column="18" selection-end-line="290" selection-end-column="18" />
           <folding />
         </state>
       </provider>
