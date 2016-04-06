@@ -536,8 +536,59 @@ function renderDigit(x, y, num, cxt){
             }
 }
 
+/*放大镜代码*/
+function realScale(){
+
+    var canvas = document.getElementById("scale-canvas");
+    var context = canvas.getContext("2d");
+    var slider = document.getElementById("scale-range");
+    var image = new Image();
+
+    var watermarkCanvas = document.getElementById("watermark-canvas");
+    var watermarkContext = watermarkCanvas.getContext("2d");
+    function scale(){
+
+        canvas.width = document.body.clientWidth;
+        canvas.height = 500;
+        var scale = slider.value;
+
+        image.src = "img/school.jpg";
+        image.onload = function(){
+            //context.drawImage( image, 0, 0, canvas.width, canvas.height )
+            drawImageByScale(scale);
+            slider.onmousemove = function(){
+                scale = slider.value;
+                drawImageByScale(scale);
+            }
+        }
+        watermarkCanvas.width = 800;
+        watermarkCanvas.height = 100;
+        watermarkContext.font = "bold 30px Arial";
+        watermarkContext.fillStyle = "rgba( 255, 255, 255, 0.5)";
+        watermarkContext.textBaseline = "middle";
+        watermarkContext.fillText("==中国地质大学（武汉） 小万作品 ==", 20, 50);
+
+    }
+
+
+
+    function drawImageByScale(scale){
+        var imageWidth = canvas.width*scale;
+        var imageHeight = 768*scale;
+//        var sx = imageWidth/2 - canvas.width/2;
+//        var sy = imageHeight/2 - canvas.height/2;
+//        context.drawImage( image, sx, sy, canvas.width, canvas.height, 0, 0, canvas.width, canvas.height);
+        var dx = canvas.width/2 - imageWidth/2;
+        var dy = canvas.height/2 - imageHeight/2;
+        context.clearRect(0, 0, canvas.width, canvas.height);
+        context.drawImage( image, dx, dy, imageWidth, imageHeight);
+        context.drawImage(watermarkCanvas, canvas.width-watermarkCanvas.width, canvas.height-watermarkCanvas.height);
+    }
+    return scale();
+}
 
 
 
 addLoadEvent(sliderShow);
 addLoadEvent(timeClock);
+addLoadEvent(realScale);

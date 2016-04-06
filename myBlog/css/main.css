@@ -251,6 +251,8 @@ h2 {
 .text-section > * {
     max-width: 98%;
 }
+
+
 .purple-section {
     padding: 80px;
     padding-bottom:0;
@@ -344,6 +346,22 @@ footer ul li a{
     height:100%;
     cursor: pointer;
 }
+#scale-section{
+    width:100%;
+    min-height:200px;
+    margin:0 auto;
+}
+#scale-canvas{
+    display:block;width:100%;max-height:100%;
+}
+#scale-range{
+    display:block;width:80%;margin:10px auto;
+}
+#watermark-canvas{
+    display:none;margin:0 auto;
+}
+
+
 
 /*轮播图*/
 #container a,#container a:hover,#container a:visited{
